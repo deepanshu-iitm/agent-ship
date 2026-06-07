@@ -30,8 +30,6 @@ env/
 .virtualenvs/
 
 # Environment variables (never commit secrets)
-.env
-.env.*
 !.env.example
 !env.example
 
@@ -43,7 +41,6 @@ scripts/rewrite_history_changelog.sh
 scripts/reword_13_to_changelog.sh
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -109,3 +106,5 @@ uv.lock
 # Internal design docs (not for public consumption)
 design-docs/
 .spec-dev/
+config.bat
+node_modules
